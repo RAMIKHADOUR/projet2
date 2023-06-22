@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(12, 67, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+section{
+    background-color:#fff;
+    padding:10px;
+    width:450px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.full_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width:90%;
+    padding:10px 5px;
+    height:39px;
+    border:1px solid rgb(120, 118, 118);
+    outline:0;
+    border-radius: 6px 0 0 6px ;
+}
+button{
+    width: 10%;
+    font-size: 20px;
+    height: 39px;
+    border: 0;
+    background-color: rgb(37, 130, 218);
+    color:#fff;
+    border-radius: 0 6px 6px 0;
+}
+
+.paragraph_style{
+    width: 10px 0;
+    padding:10px 0px;
+    padding-left: 5px;
+    border:1px solid rgb(120, 118, 118);
+    border-radius:6px ;
+    color:#fff;
+    background-color: rgb(25, 97, 222);
+    word-break: break-all;
+    cursor: pointer;
+    animation:anime 0.5s linear;
+}
+.paragraph_style:last-child{
+    margin-bottom: 0;
+}
+
+@keyframes anime {
+    from{
+        transform:translateY(58px);
+    }
+    
+}
+.paragraph_click{
+background-color: orange;
+text-decoration: line-through;
+
+}
